@@ -1,11 +1,16 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import CounterContext from './countercontext';
 
-const Child=()=>{
+const Child=(props)=>{
 
-    return (
+  let countervalue = useContext(CounterContext)
+
+  console.log(countervalue)
+    
+  return (
 
         <div>
-            <h1>This is first child</h1>
+            <h1>This is name</h1>
         </div>
     )
 }
