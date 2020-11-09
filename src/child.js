@@ -10,7 +10,16 @@ const Child=(props)=>{
   return (
 
         <div>
-            <h1>This is name</h1>
+            <h1>counter value {countervalue[0]}</h1>
+            <button onClick={
+
+                ()=>{countervalue[1](++countervalue[0])}
+                
+                
+                }>  
+            
+            
+            Increment</button>
         </div>
     )
 }
