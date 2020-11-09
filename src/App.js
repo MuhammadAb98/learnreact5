@@ -6,10 +6,10 @@ function App() {
   return (
   <div>
 
-    <Parent />
+    <Parent /> 
 
-  </div>
-  );
+  </div>  // parent -> child -> grand child
+   );
 }
 
 export default App;
