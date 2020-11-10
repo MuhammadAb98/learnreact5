@@ -6,6 +6,7 @@ import CounterContext from './countercontext.js';
 function App() {
   
   //let [count,setcount]=useState(3034);
+  
    let countstate = useState(1);
   return (
     <CounterContext.Provider value={countstate}>

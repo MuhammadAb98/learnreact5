@@ -5,7 +5,7 @@ const Child=(props)=>{
 
   let countervalue = useContext(CounterContext)
 
-  console.log(countervalue)
+  //console.log(countervalue)
     
   return (
 
